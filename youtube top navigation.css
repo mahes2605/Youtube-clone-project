@@ -1,0 +1,147 @@
+.navigation-container{
+    /* width: 100%; */
+    
+
+ 
+
+}
+.top-navigation-container{
+    /* background-color: #ffffff; */
+    /* background-color: aquamarine; */
+    background-color: rgb(255,255,255);
+    justify-content: space-between;
+    height: 50px;
+    width:100% ;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrin: 1; */
+    margin-bottom: 25px;
+    
+
+}
+.nav-leftside{
+
+} 
+.menu{
+    margin: 10px;
+
+
+}
+.youtube{
+    /* width: 60px;
+    height: 30px; */
+    width: 160px;
+
+}
+.nav-middle
+{
+    
+    width: 50%;
+    border-radius: 5px;
+    
+  
+
+    
+    
+}
+.input-search{
+    height: 40px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border:1px solid;
+    padding: 20px;
+    font-size: 15px;
+    flex-grow:1;
+    border-color: #c6c6c6;
+    
+
+    /* border: transparent lightgray; */
+
+  
+
+
+}
+.input-search:focus{
+    outline: none;
+    font-weight: bold;
+}
+.search{
+   /* background-color: rgb(243, 238, 238); */
+   background-color:rgb(248,248,248);
+   border: 1px solid;
+   border-color: #c6c6c6;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   width: 60px;
+   height: 40px;
+   
+
+   
+
+}
+.search-logo{
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+.mic{
+    background-color: rgb(242,242,242);
+   margin-left: 10px;
+   border-radius: 20px;
+   width: 40px;
+   height: 40px;
+
+}
+.mic-logo{
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+.nav-rightside{
+   
+
+} 
+.create{
+    background-color:rgb(242,242,242);
+    border-radius: 15px;
+    height: 40px;
+    width: 70px;
+
+}
+.create-text{
+    margin-top: 8px;
+    margin-left: 8px;
+
+}
+.bell{
+    margin-right: 20px;
+    width: 25px;
+    margin-left: 10px;
+
+}
+.profile{
+    background-color: rgb(126,87,194);
+    
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+    
+
+}
+.profile-text{
+    /* margin-top: 5px; */
+    margin-left: 6px;
+    color: white;
+
+}
+
+@media(max-width:500px){
+    .top-navigation-container{
+        display: none;
+    }
+}

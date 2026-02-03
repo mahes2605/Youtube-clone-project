@@ -1,0 +1,46 @@
+.mini-dis-flex{
+    display: flex;
+    align-items: center;
+}
+.mini-icon{
+    width: 20px;
+}
+
+
+
+
+
+
+
+.mini-top{
+    justify-content: space-between;
+
+
+}
+.mini-top-left{
+
+}
+.mini-youtube-logo{
+    margin-left: 10px;
+    width: 30px;
+
+}
+.mini-top-right{
+}
+.mini-wifi{
+    margin-right: 10px;
+
+}
+.mini-bell{
+    margin-right: 10px;
+
+}
+.mini-search{
+    margin-right: 10px;
+
+}
+@media(min-width:700px){
+    .mini-top{
+        display: none;
+    }
+}
